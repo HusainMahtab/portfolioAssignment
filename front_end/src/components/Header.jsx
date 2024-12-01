@@ -44,6 +44,7 @@ function Header() {
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnWqE1uBiDzHDjPbROKyTQK4l-2viGz5r8Wg&s"
               alt="logo"
+              
             />
           </div>
           <div className="grid px-2 animate-bounce">
