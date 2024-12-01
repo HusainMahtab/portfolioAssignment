@@ -61,7 +61,7 @@ function Login() {
            </div>
              {
               loader ? (
-                 <div className='bg-[#9933ff] flex justify-center items-center rounded p-2 w-[200px] m-2 ml-4 '>
+                 <div className='w-full bg-[#9933ff] flex justify-center items-center rounded p-2'>
                    <div className='w-[10px] p-2 text-white  border-4 border-b-[#9933ff] rounded-full animate-spin'></div>
                 </div>
               ) : (

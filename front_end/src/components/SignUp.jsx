@@ -157,12 +157,12 @@ function SignUp() {
         <div className="">
            {
               loader ? (
-                 <div className='bg-[#9933ff] flex justify-center items-center rounded p-2 w-[260px] md:w-[300px] m-2'>
+                 <div className='w-full bg-[#9933ff] flex justify-center items-center rounded p-2'>
                    <div className='w-[10px] p-2 text-white  border-4 border-b-[#9933ff] rounded-full animate-spin'></div>
                 </div>
               ) : (
                    <div className="w-full flex justify-center items-center">
-                     <button className='w-[260px] md:w-[300px] p-2 bg-[#9933ff] font-bold text-white rounded hover:scale-110 duration-300' >SignUp</button> 
+                     <button className='w-[200px] md:w-[300px] p-2 bg-[#9933ff] font-bold text-white rounded hover:scale-110 duration-300' >SignUp</button> 
                    </div>
               )
              }
