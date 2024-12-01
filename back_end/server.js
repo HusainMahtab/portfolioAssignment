@@ -10,7 +10,7 @@ dotenv.config({
 
 app.use(
     cors({
-      origin:['http://localhost:5173',"https://nimesh-portfolio-c40y.onrender.com"], 
+      origin:['http://localhost:5173',"https://mahtab-husain-pf.onrender.com"], 
       credentials: true, // Allow cookies and credentials
       methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Allow these methods
       allowedHeaders: ['Content-Type', 'Authorization'], // Ensure headers are allowed
