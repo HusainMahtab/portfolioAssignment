@@ -1,6 +1,6 @@
 # MERN Stack Portfolio Web App
 
-![Project Preview](front_end/src/assets/portfolio-preview.png)
+![Project Preview](./front_end/src/assets/portfolio-preview.png)
 
 This is a feature-rich portfolio web application built using the **MERN stack** (MongoDB, Express.js, React.js, and Node.js). It demonstrates advanced web development skills, including **JWT-based authentication**, **role-based access control**, and **responsive design**. The app is designed to be user-friendly with animations and an intuitive admin panel.
 
