@@ -47,7 +47,7 @@ function Login() {
 
   return (
     <div className='w-full h-[80vh] flex justify-center items-center p-4'>
-       <form className="border w-full  border-[#9933ff] p-8" onSubmit={handleSubmit}>
+       <form className="border border-[#9933ff] p-8" onSubmit={handleSubmit}>
            <h1 className="w-full text-center text-[#9933ff] font-bold">Login</h1>
            <div className='p-4'>
            <div className='grid'>
@@ -66,14 +66,14 @@ function Login() {
                 </div>
               ) : (
                   <div className='w-full flex justify-center items-center'>
-                    <button className='w-[200px] md:w-[200px] ml-4 p-2 bg-[#9933ff] font-bold text-white rounded hover:scale-110 duration-300' >Login</button>
+                    <button className='w-[200px] md:w-[200px] p-2 bg-[#9933ff] font-bold text-white rounded hover:scale-110 duration-300' >Login</button>
                   </div>
               )
              }
            <Toaster/>
            <div className="flex justify-center items-center gap-2 mt-3">
               <p>Don't have Account:</p>
-              <p onClick={()=>navigate("/signup")} className='text-[#9933ff] cursor-pointer hover:underline'>SignUp</p>
+              <p onClick={()=>navigate("/signup")} className='text-[#9933ff] cursor-pointer underline md:no-underline hover:underline'>SignUp</p>
            </div>
        </form>
     </div>

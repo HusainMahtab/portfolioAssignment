@@ -83,7 +83,7 @@ function SignUp() {
 
   return (
     <section className="w-full h-[80vh] grid justify-center items-center p-4">
-      <div className="w-[350px] h-[550px] md:w-[400px] md:h-[550px] border mt-10 border-[#9933ff] p-4">
+      <div className="w-[320px] h-[550px] md:w-[400px] md:h-[550px] border mt-10 border-[#9933ff] p-4">
        <div className="w-20 h-20 border border-[#9933ff] rounded-full mx-auto overflow-hidden">
         <div className='w-full text-center'>
           <img src={data.profilePic} alt="upload-image" />
@@ -157,11 +157,13 @@ function SignUp() {
         <div className="">
            {
               loader ? (
-                 <div className='bg-[#9933ff] flex justify-center items-center rounded p-2 w-[260px] md:w-[300px] md:ml-4 ml-3 m-2'>
+                 <div className='bg-[#9933ff] flex justify-center items-center rounded p-2 w-[260px] md:w-[300px] m-2'>
                    <div className='w-[10px] p-2 text-white  border-4 border-b-[#9933ff] rounded-full animate-spin'></div>
                 </div>
               ) : (
-                   <button className='w-[260px] md:w-[300px] md:ml-4 ml-3 p-2 bg-[#9933ff] font-bold text-white rounded hover:scale-110 duration-300' >SignUp</button> 
+                   <div className="w-full flex justify-center items-center">
+                     <button className='w-[260px] md:w-[300px] p-2 bg-[#9933ff] font-bold text-white rounded hover:scale-110 duration-300' >SignUp</button> 
+                   </div>
               )
              }
           <Toaster />
